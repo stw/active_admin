@@ -313,7 +313,7 @@ body.logged_out {
 // -------------------------------------- Dashboard 
 table.dashboard {
   width: 100%; 
-  td { border-bottom: none; }
+  td { border-bottom: none; vertical-align: top; }
   .dashboard_section { @include section; }
 }
 
